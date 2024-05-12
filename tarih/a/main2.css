@@ -1,0 +1,279 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hanedan-container{
+    margin: 0px 10px;
+}
+.Hanedanlar{
+    display: flex;
+}
+header{
+    background-color: rgb(14, 127, 172);
+    color: rgb(3, 3, 3);
+    padding: 20px 0;
+}
+
+header h1,
+ nav {
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    position: relative; 
+  }
+  
+  nav li a::before {
+    content: ""; 
+    position: absolute; 
+    bottom: -5px; 
+    left: 50%; 
+    width: 90%; 
+    height: 1px; 
+    background-color: black; 
+    transform: translateX(-50%); 
+    transition: width 0.3s; 
+  }
+  
+  nav li a:hover::before {
+    width: 100%; 
+  }
+  
+a{
+    text-decoration: none;
+}
+main{
+    background-color: rgb(210, 221, 223);
+    padding: 20px 0 px;
+}
+.Ana{
+    text-align: center;
+    padding: 40px 0px;
+}
+.anaa{
+    display: inline-block;
+    background-color: rgb(122, 164, 201);
+    color: rgb(253, 253, 253);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 300ms background-color;
+    margin-bottom: 10px;
+} 
+.anaa:hover{
+    background-color: rgb(205, 237, 255);
+}
+.anab{
+    display: inline-block;
+    background-color: rgb(122, 164, 201);
+    color: rgb(253, 253, 253);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 300ms background-color;
+} 
+.anab:hover{
+    background-color: rgb(205, 237, 255);
+}
+.hanedan{
+    padding: 40px 0px;
+}
+.hanedan{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan:hover{
+    border-color: rgb(167, 13, 13);
+}
+.hanedan1{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan1:hover{
+    border-color: rgb(44, 97, 30);
+}
+.hanedan2{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan2:hover{
+    border-color: rgb(196, 209, 14);
+}
+.hanedan3{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan3:hover{
+    border-color: rgb(209, 14, 105);
+}
+.hanedan4{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan4:hover{
+    border-color: rgb(6, 17, 66);
+}
+.hanedan5{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hanedan5:hover{
+    border-color: rgb(20, 165, 20);
+}
+.hanedan img{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+img {
+    width: 200px; /* Örnek genişlik */
+    height: 150px; /* Örnek yükseklik */
+}
+.resim-boyutu-1 {
+   position: absolute;
+    top: 10px; /* Yukarıdan 10 piksel mesafede */
+    right: 100px; /* Sağdan 10 piksel mesafede */
+    width: 50px; /* Genişlik */
+    height: 50px; /* Yükseklik */
+    border: 2px solid rgb(20, 165, 175);
+    
+}
+.resim-boyutu-1:hover {
+    filter:  brightness(120%) saturate(200%);
+}
+
+.resim-boyutu-2 {
+    position: absolute;
+
+    top: 10px; /* Yukarıdan 10 piksel mesafede */
+    right: 40px; /* Sağdan 10 piksel mesafede */
+    width: 50px; /* Genişlik */
+    height: 50px; /* Yükseklik */
+    border: 2px solid rgb(231, 237, 238);
+   
+}
+.resim-boyutu-2:hover {
+    filter:  brightness(120%) saturate(200%);
+}
+.resim-boyutu-3 {
+    position: absolute;
+
+    top: 10px; /* Yukarıdan 10 piksel mesafede */
+    right: 160px; /* Sağdan 10 piksel mesafede */
+    width: 50px; /* Genişlik */
+    height: 50px; /* Yükseklik */
+    border: 2px solid rgb(226, 223, 223);
+   
+}
+.resim-boyutu-3:hover {
+    filter:  brightness(120%) saturate(200%);
+}
+
+
+
+  
+  .hour-hand{
+      position: absolute;
+    left: 5.5%;
+    top: 24%;
+    transform-origin: bottom center;
+  }
+  .minute-hand{
+      position: absolute;
+    left: 5.5%;
+    top: 22.25%;
+    transform-origin: bottom center;
+  }
+  .second-hand {
+    position: absolute;
+    left: 5.5%;
+    top: 20%;
+    transform-origin: bottom center;
+  }
+  
+  .hour-hand {
+    width: 4px;
+    height: 50px;
+    background-color: black;
+  }
+  
+  .minute-hand {
+    width: 2px;
+    height: 70px;
+    background-color: black;
+  }
+  
+  .second-hand {
+    width: 1px;
+    height: 80px;
+    background-color: red;
+  }
+  
+  .center-circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+    top: 29%;
+    left: 5.5%;
+    transform: translate(-50%, -50%);
+  }
+  
